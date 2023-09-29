@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Bungee+Spice&family=Foldit&family=Lora:ital@1&family=Tilt+Prism&display=swap');
+
+
+
+
+body{
+    background-color: rgba(87, 6, 6, 0.931);
+}
+.p{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(161, 125, 125);
+    position: relative;
+    /* left: 400px; */
+    top: 10px;
+
+}
+.col{
+    height: 550px;
+    width: 250px;
+    border:  2px transparent double;
+    position: absolute;
+    top:10px;
+}
+.col1{
+    background-color: rgba(16, 16, 16, 0.306);
+    left:115px;
+}
+.col2{
+    background-color:rgba(1, 19, 19, 0.306);
+    left:444px;
+}
+
+.col3{
+    background-color:rgba(1, 19, 19, 0.306);
+    left:776px;
+}
+.col4{
+    background-color: rgba(1, 19, 19, 0.306);
+    left:1112px;
+}
+h1{
+    height: 10px;
+    text-align: center;
+    font-family: 'Foldit', cursive;
+    font-size: 50px;
+    
+   
+}
+img{
+    height: 300px;
+    width: 200px;
+    padding: 25px;
+}
+.hh{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Tilt Prism', cursive;
+}
+.dd{
+    text-align: center;
+    font-family: 'Advent Pro', sans-serif;
+}
+.r{
+    background-color: rgba(0, 0, 0, 0);
+    height: 30px;
+    width: 153px;
+    text-align: center;
+    margin-left:45px;
+    font-size: x-large;
+   
+}
+i{
+    margin-top: 15px;
+}
+
+
+.col1:hover{
+    background-color: rgb(48, 10, 10);
+    color: rgb(249, 248, 248);
+}
+
+.col2:hover{
+    background-color: rgb(56, 4, 4);
+    color: white;
+}
+.col3:hover{
+    background-color: rgb(56, 7, 7);
+    color: white;
+}
+.col4:hover{
+    background-color: rgb(53, 7, 7);
+    color: white;
+}
